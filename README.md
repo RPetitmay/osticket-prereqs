@@ -24,7 +24,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Virtual Machine(Azure)
 - IP Address of Virtual Machine
-- Remote Desktop Connection(Windows)/Windows App(MacOS
+- Remote Desktop Connection(Windows)/Windows App(MacOS)
 
 
 <h2>Installation Steps</h2>
