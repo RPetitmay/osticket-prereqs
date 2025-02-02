@@ -22,9 +22,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Virtual Machine(Azure)
-- IP Address of Virtual Machine
-- Remote Desktop Connection(Windows)/Windows App(MacOS)
+- Azure Subscription/Azure Account created
+- Resource Group created within your Azure portal
+- Virtual Machine(Azure) created within your Azure portal within the Resource Group your created
+- Remote Desktop Connection(Windows) or Windows App(MacOS) installed onto your PC
+- osTicket Installation Zip File installed onto PC 
 
 
 <h2>Installation Steps</h2>
@@ -33,7 +35,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Logon to Remote Desktop Connection if your using Windows or Windows App if your are using MacOS.
+  How to use Remote Desktop Connection(Windows) or Windows App(MacOS):
+  -Enter IP Address 
 </p>
 <br />
 
