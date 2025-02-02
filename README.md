@@ -21,6 +21,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Windows 10</b> (21H2)
 
 <h2>List of Prerequisites</h2>
+
 - Basic/General Understanding of Microsoft Azure
 - Azure Subscription/Azure Account(Portal) created
 - Resource Group created within your Azure portal
@@ -32,10 +33,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/X51QIbR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Open Remote Desktop Connection if your using Windows or Windows App if your are using MacOS. Enter the IP Address of your VM and the username and password of your VM. 
+Open Remote Desktop Connection if your using Windows or Windows App if your are using MacOS. Enter the IP Address username and password of your Virtual Machine. Once logged in 
 </p>
 <br />
 
