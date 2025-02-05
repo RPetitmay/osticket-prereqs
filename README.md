@@ -25,7 +25,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Basic/General Understanding of Microsoft Azure
 - Azure Subscription/Azure Account(Portal) created
 - Resource Group created within your Azure portal
-- Virtual Machine(Azure) created within your Azure portal with the Resource Group you've created previously
+- Windows 10 Virtual Machine(Azure) created within your Azure portal with the Resource Group you've created previously
 - Remote Desktop Connection(Windows) application or Windows App(MacOS) application installed onto your PC
 - osTicket Installation Zip File installed onto PC (needed later for extraction of files)
 
