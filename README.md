@@ -33,7 +33,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/jZQWfUC.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/jZQWfUC.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Open Remote Desktop Connection if your using Windows or Windows App if your are using MacOS. Enter the IP address, username and password of your Virtual Machine. All the information needed can be found in your Azure protal virtual machine section. 
