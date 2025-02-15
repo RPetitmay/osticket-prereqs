@@ -27,7 +27,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Resource Group created within your Azure portal
 - Windows 10 Virtual Machine(Azure) created within your Azure portal with the Resource Group you've created previously
 - <a href= "https://remote-desktop-connection.en.softonic.com/">Remote Desktop Connection(Windows)</a> application or <a href="https://apps.apple.com/us/app/windows-app/id1295203466?mt=12">Windows App(MacOS)</a> application installed onto your PC.
-- osTicket Installation Zip File installed onto PC (needed later for extraction of files)
+- <a href="https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD">osTicket Installation Zip File</a> installed onto PC (needed later for extraction of files)
 
 
 <h2>Installation Steps</h2>
