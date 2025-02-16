@@ -44,7 +44,15 @@ Open Remote Desktop Connection if your using Windows or Windows App if your are 
 <img src="https://i.imgur.com/Cz95LZp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-After successfully logging in, copy and paste the link of the osTicket Installation Zip File onto your VM. Download(donot unzip) the folder. Locate the downloaded folder in file explorer, drag the folder onto your Desktop from file explorer. Afterwards right-click the folder, click extract all and then click extract. 
+After successfully logging in, copy and paste the link of the osTicket Installation Zip File onto your VM. Download(donot unzip) the folder. Locate the downloaded folder in file explorer, drag/move the folder onto your Desktop from file explorer. Afterwards right-click the folder, click extract all and then click extract. 
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/SQV1HJQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+After successful extraction, click the Start menu and type "Control Panel" and hit enter to open the Control Panel. After that click "Programs" and then under Programs and Features click "Turn Windows features on and off". Check/Click the box next to Internet Information Services and expand the folder. Under this folder locate folder named "World Wide Web Services" and expand the folder, then locate folder named "Application Development Features" and expand it, lastly check the box next to "CGI" and click ok to apply changes to you VM's window features. To confirm that the changes have been applied, go on the web browser and search 127.0.0.1 and it should display an IIS(Internet Information Services) page for windows.
 </p>
 <br />
 
@@ -63,3 +71,20 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
