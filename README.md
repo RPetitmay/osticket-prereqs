@@ -44,7 +44,7 @@ Open Remote Desktop Connection if your using Windows or Windows App if your are 
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-After successfully logging in to your VM, go on the web(I
+After successfully logging in to your VM, copy and paste the osTicket Installation Zip File inside your VM
 </p>
 <br />
 
