@@ -41,10 +41,10 @@ Open Remote Desktop Connection if your using Windows or Windows App if your are 
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Cz95LZp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-After successfully logging in to your VM, copy and paste the osTicket Installation Zip File inside your VM
+After successfully logging in, copy and paste the link of the osTicket Installation Zip File onto your VM. Download(donot unzip) the folder. Locate the downloaded folder in file explorer, drag the folder onto your Desktop from file explorer. Afterwards right-click the folder, click extract all and then click extract. 
 </p>
 <br />
 
