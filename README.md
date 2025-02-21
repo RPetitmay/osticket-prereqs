@@ -5,11 +5,6 @@
 <h1>osTicket - Prerequisites and Installation</h1>
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
-
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com) 
-
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
@@ -68,7 +63,24 @@ Locate the unzipped osTicket Installation folder on your desktop, enter the fold
 <img src="https://i.imgur.com/Ys3z4vn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Install application file called "VC_redist.x86". Next install application file called "mysql-5.5.62-win32". During installation make sure to choose "Typical" for setup type. After that, launch the application. Once there you are prompted to select a Server Instance Configuration, make sure you choose "Standard Configuration". Then, you will set up a username and password. After that finish the rest of the installation. Open IIS as an admin. To do so, search IIS on windows search bar, then select "Run as administrator". Once the application is open look for "PHP Manager" and double click to open. Then click "Register a new PHP version". From here you will browse the file explorer("...") and look for a application file called "php-cgi". This file is located under the PHP folder you created earlier within your windows C drive(C:\PHP\php-cgi.exe). 
+Install application file called "VC_redist.x86". Next install application file called "mysql-5.5.62-win32". During installation make sure to choose "Typical" for setup type. After that, launch the application. Once there you are prompted to select a Server Instance Configuration, make sure you choose "Standard Configuration". Then, you will set up a username and password. After that finish the rest of the installation. Open IIS as an admin. To do so, search IIS on windows search bar, then select "Run as administrator". Once the application is open look for "PHP Manager" and double click to open. Then click "Register a new PHP version". From here you will browse your file explorer(...) and look for a application file called "php-cgi". This file is located under the PHP folder you created earlier within your windows C drive(C:\PHP\php-cgi.exe). Return to IIS Manager home page 
+and click "Restart" under the actions panel.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+ Under the osTicket-Installation-Files folder locate a Compressed(zipped folder named "osTicket-v1.15.8") and extract all files. Once extraction is complete, a folder(unzipped) named "osTicket-v1.15.8", should have appeared on top of the folder. Next go in to folder and c
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
 
