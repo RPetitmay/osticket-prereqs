@@ -72,7 +72,7 @@ and click "Restart" under the actions panel.
 <img src="https://i.imgur.com/nqzMj67.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Under the osTicket-Installation-Files folder locate a Compressed(zipped folder named "osTicket-v1.15.8") and extract all files. Once extraction is complete, a folder(unzipped) named "osTicket-v1.15.8", should have appeared. Next, within this folder copy the "upload" folder onto "C:\inetpub\wwwroot" and rename the upload folder as "osTicket". Then reload/restart the IIS manager server. On the left hand side of IIS Manager portal, under connections look for Sites then expand it and look for Default Web Site and expand it and click on osTicket. Afterwards, on the right panel click "Browse *:80(http)". This should have opened osTicket in the browser, with a "thank you for choosing osTicket" page.
+Under the osTicket-Installation-Files folder locate a Compressed(zipped folder named "osTicket-v1.15.8") and extract all files. Once extraction is complete, a folder(unzipped) named "osTicket-v1.15.8", should have appeared. Next, within this folder copy the "upload" folder onto "C:\inetpub\wwwroot" and rename the upload folder as "osTicket". Then reload/restart the IIS manager server. On the left hand side of IIS Manager portal, under connections look for Sites then expand it and look for Default Web Site and expand it and click on osTicket. Afterwards, on the right panel click "Browse *:80(http)". This should have opened osTicket installer page on the browser, with a message saying "thank you for choosing osTicket".
 </p>
 <br />
 
@@ -80,7 +80,8 @@ Under the osTicket-Installation-Files folder locate a Compressed(zipped folder n
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+From here go back to IIS Manager, double-click osTicket on the left panel and look for PHP Manager. Under PHP Manager look for PHP Extensions, then look for Enable and disable an extension and click on it. Now you will enable the following extensions, php_imap.dll, php_intl.dll, and php_opcache.dll. Refresh the osTicket installer page, to see the changes of the extensions added. From osTicket
+
 </p>
 <br />
 
