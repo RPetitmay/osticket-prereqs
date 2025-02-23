@@ -39,7 +39,7 @@ Open Remote Desktop Connection if your using Windows or Windows App if your are 
 <img src="https://i.imgur.com/Cz95LZp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-After successfully logging in, copy and paste the link of the osTicket Installation Zip Folder onto your VM. Download(donot unzip) the folder. Locate the downloaded folder in file explorer, drag/move the folder onto your desktop from file explorer. Afterwards extract all files from within the zipped folder. To do so, right-click the folder, click extract all and then click extract. No need to change extraction location.
+After successfully logging in, copy and paste the link of the osTicket Installation Zip Folder onto your VM. Download(donot unzip) the folder. Locate the downloaded folder in file explorer, drag/move the folder onto your desktop from file explorer. Afterwards extract all files from within the zipped folder. To do so, right-click the folder, click extract all and then click extract. No need to change the extraction location.
 </p>
 <br />
 
@@ -69,10 +69,10 @@ and click "Restart" under the actions panel.
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/nqzMj67.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
- Under the osTicket-Installation-Files folder locate a Compressed(zipped folder named "osTicket-v1.15.8") and extract all files. Once extraction is complete, a folder(unzipped) named "osTicket-v1.15.8", should have appeared on top of the folder. Next go in to folder and c
+Under the osTicket-Installation-Files folder locate a Compressed(zipped folder named "osTicket-v1.15.8") and extract all files. Once extraction is complete, a folder(unzipped) named "osTicket-v1.15.8", should have appeared. Next, within this folder copy the "upload" folder onto "C:\inetpub\wwwroot" and rename the upload folder as "osTicket". Then reload/restart the IIS manager server. On the left hand side of IIS Manager portal, under connections look for Sites then expand it and look for Default Web Site and expand it and click on osTicket. Afterwards, on the right panel click "Browse *:80(http)". This should have opened osTicket in the browser, with a "thank you for choosing osTicket" page.
 </p>
 <br />
 
