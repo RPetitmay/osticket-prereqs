@@ -39,7 +39,7 @@ Open Remote Desktop Connection if your using Windows or Windows App if your are 
 <img src="https://i.imgur.com/Cz95LZp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-After successfully logging in, copy and paste the link of the osTicket Installation Zip Folder onto your VM. Download(donot unzip) the folder. Locate the downloaded folder in file explorer, drag/move the folder onto your desktop from file explorer. Afterwards extract all files from within the zipped folder. To do so, right-click the folder, click extract all and then click extract. No need to change the extraction location.
+After successfully logging in, copy and paste the link of the osTicket Installation Zip Folder onto your VM. Download(donot unzip) the folder. Locate the downloaded folder in file explorer, drag/move the folder onto your desktop from file explorer. Afterwards extract(unzip) all files from within the zipped folder. To do so, right-click the folder, click extract all and then click extract. No need to change the extraction location.
 </p>
 <br />
 
@@ -72,7 +72,7 @@ and click "Restart" under the actions panel.
 <img src="https://i.imgur.com/nqzMj67.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Under the osTicket-Installation-Files folder locate a Compressed(zipped folder named "osTicket-v1.15.8") and extract all files. Once extraction is complete, a folder(unzipped) named "osTicket-v1.15.8", should have appeared. Next, within this folder copy the "upload" folder onto "C:\inetpub\wwwroot" and rename the upload folder as "osTicket". Then reload/restart the IIS manager server. On the left hand side of IIS Manager portal, under connections look for Sites then expand it and look for Default Web Site and expand it and click on osTicket. Afterwards, on the right panel click "Browse *:80(http)". This should have opened osTicket installer page on the browser, with a message saying "thank you for choosing osTicket".
+Under the osTicket-Installation-Files folder locate a Compressed(zipped folder named "osTicket-v1.15.8") and extract all files. Once extraction is complete, a folder(unzipped) named "osTicket-v1.15.8", should have appeared. Next, within this folder copy the "upload" folder onto "C:\inetpub\wwwroot" and rename the upload folder as "osTicket". Then reload/restart the IIS manager server. On the left hand side of IIS Manager home, under connections look for "Sites" then expand it and look for "Default Web Site" and expand it and click on "osTicket". Afterwards, on the right panel click "Browse *:80(http)". This should have opened osTicket installer page on the browser, with a message saying "thank you for choosing osTicket".
 </p>
 <br />
 
@@ -80,7 +80,7 @@ Under the osTicket-Installation-Files folder locate a Compressed(zipped folder n
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-From here go back to IIS Manager, double-click osTicket on the left panel and look for PHP Manager. Under PHP Manager look for PHP Extensions, then look for Enable and disable an extension and click on it. Now you will enable the following extensions, php_imap.dll, php_intl.dll, and php_opcache.dll. Refresh the osTicket installer page, to see the changes of the extensions added. From osTicket
+From here go back to IIS Manager home, double-click osTicket on the left panel and look for PHP Manager. Under PHP Manager look for PHP Extensions, then look for "Enable and disable an extension" and open it. Now you will enable the following extensions, php_imap.dll, php_intl.dll, and php_opcache.dll. Refresh the osTicket installer page, to see the changes of the extensions added. From the following file path "C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php" rename the file ost-sampleconfig.php to ost-config.php. Go to the Properties of the file, then go to the Security tab, then go to Advanced and click "Disable Inheritance" and then click "Remove all inherited permissions from this object". On the top left hand corner click "Select a principal" and add user
 
 </p>
 <br />
