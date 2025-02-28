@@ -77,11 +77,18 @@ Under the osTicket-Installation-Files folder locate a Compressed(zipped folder n
 <br />
 
 <p>
+<img src="https://i.imgur.com/zaCGLkJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+From here go back to IIS Manager home, double-click osTicket on the left panel and look for PHP Manager. Under PHP Manager look for PHP Extensions, then look for "Enable and disable an extension" and open it. Now you will enable the following extensions, php_imap.dll, php_intl.dll, and php_opcache.dll. Refresh the osTicket installer page, to see the changes of the extensions added. From the following file path "C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php" rename the file ost-sampleconfig.php to ost-config.php. Go to the Properties of the file, then go to the Security tab, then go to Advanced and click "Disable Inheritance" and then click "Remove all inherited permissions from this object". Click add and on the top left hand corner click "Select a principal" and add a user/enter an object name by typing a name and then select Full Control, to give full permission to osTicket configuration. To finalize, click "Ok" and "Apply".
+</p>
+<br />
+
+<p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-From here go back to IIS Manager home, double-click osTicket on the left panel and look for PHP Manager. Under PHP Manager look for PHP Extensions, then look for "Enable and disable an extension" and open it. Now you will enable the following extensions, php_imap.dll, php_intl.dll, and php_opcache.dll. Refresh the osTicket installer page, to see the changes of the extensions added. From the following file path "C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php" rename the file ost-sampleconfig.php to ost-config.php. Go to the Properties of the file, then go to the Security tab, then go to Advanced and click "Disable Inheritance" and then click "Remove all inherited permissions from this object". On the top left hand corner click "Select a principal" and add user
-
+Go to osTicket Installer on your browser and click continue. Afterwards fill in the system settings for your online helpdesk. Before clicking Install Now, go back to the osTicket Installation folder
 </p>
 <br />
 
@@ -100,4 +107,3 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
-
