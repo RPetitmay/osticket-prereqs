@@ -85,10 +85,10 @@ From here go back to IIS Manager home, double-click osTicket on the left panel a
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/53GE1kz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Go to osTicket Installer on your browser and click continue. Afterwards fill in the system settings for your online helpdesk. Before clicking Install Now, go back to the osTicket Installation folder
+Go to osTicket Installer on your browser and click continue. Afterwards fill in the system settings for your online helpdesk. Before clicking Install Now, go back to the osTicket Installation Files folder and install HeidiSQL. AFter installation, HeidiSql should have launched, click New. Make sure to enter the same password used earlier, when setting up the Sql server. Continue and create a database called osTicket. Go back to the browswer and fill in the database settings anc click install now. 
 </p>
 <br />
 
