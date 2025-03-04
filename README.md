@@ -39,15 +39,15 @@ Open Remote Desktop Connection if your using Windows or Windows App if your are 
 <img src="https://i.imgur.com/Cz95LZp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-After successfully logging in, copy and paste the link of the osTicket Installation Zip Folder onto your VM. Download(donot unzip) the folder. Locate the downloaded folder in file explorer, drag/move the folder onto your desktop from file explorer. Afterwards extract(unzip) all files from within the zipped folder. To do so, right-click the folder, click extract all and then click extract. No need to change the extraction location.
+After successfully logging in, copy and paste the link of the osTicket Installation Zip Folder onto your VM. Download(donot unzip) the folder. Locate the downloaded folder in file explorer, drag/move the folder onto your desktop from file explorer. Afterwards extract(unzip) all files from within the zipped folder. After extraction an extra folder within your desktop should. 
 </p>
 <br />
-
+F
 <p>
 <img src="https://i.imgur.com/SQV1HJQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-After successful extraction, go to the Start menu and type "Control Panel" and hit enter to open the Control Panel. After that click "Programs" and then under "Programs and Features" click "Turn Windows features on and off". Check/Click the box next to Internet Information Services and expand the folder. Under this folder locate another folder named "World Wide Web Services" and expand the folder, then locate another folder named "Application Development Features" and expand it, lastly check the box next to "CGI" and click ok to apply changes to you VM's window features. To confirm that the changes have been applied, go on the web browser and search 127.0.0.1 on the search bar and it should display an IIS(Internet Information Services) page for windows.
+First on the internet and type  127.0.0.0, and an error page should appear with no CGI applied as expected. After successful extraction, go to the Control Panel of the VM  and look for "Programs" and within programs look for "Programs and Features" adn then within programs and features look for "Turn Windows features on and off". Once arrived a windows tab should opened contain many folders within folders and checkboxes. First, check/click the box next to Internet Information Services and expand the folder. Under this folder locate another folder named "World Wide Web Services" and expand the folder, then locate another folder named "Application Development Features" and expand it, lastly check the box next to "CGI" and click ok to apply changes to you VM's window features. To confirm that the changes have been applied, go on the web browser reload or a search again 127.0.0.1 on the search bar and this time it should display a CGI for the IIS(Internet Information Services) page.
 </p>
 <br />
 
@@ -55,7 +55,7 @@ After successful extraction, go to the Start menu and type "Control Panel" and h
 <img src="https://i.imgur.com/W7cAAAH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Locate the unzipped osTicket Installation folder on your desktop, enter the folder, and look for a file application called "PHPManagerForIIS" and install it. On the same folder locate windows installer package called "rewrite_amd64" and install it. Open up a new file explorer window and go to your windows C drive, then add a new folder and name it "PHP". Within the osTicket Installation Folder locate another folder called "php-7.3.8-nts-Win32-VC15-x85" and extract the files from this folder onto the folder named PHP that you created earlier. To do so, right click on the folder, click extract all, then click browse and look for the PHP folder which is under the Windows C: drive and then click "Select folder" and then click extract.
+Locate the unzipped osTicket Installation folder on your desktop, enter the folder, and look for a file application called "PHPManagerForIIS" and install it. On the same folder locate windows installer package called "rewrite_amd64" and install it. Open up a new file explorer window and go to your windows C drive, then add a new folder and name it "PHP". Within the osTicket Installation Folder locate another folder called "php-7.3.8-nts-Win32-VC15-x85" and extract the files from this folder onto another folder named PHP that you created earlier. To do so, right click on the folder, click extract all, then click browse and look for the PHP folder which is under the Windows C: drive and then click "Select folder" and then click extract.
 </p>
 <br />
 
@@ -63,7 +63,7 @@ Locate the unzipped osTicket Installation folder on your desktop, enter the fold
 <img src="https://i.imgur.com/Ys3z4vn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Install application file called "VC_redist.x86". Next install application file called "mysql-5.5.62-win32". During installation make sure to choose "Typical" for setup type. After that, launch the application. Once there you are prompted to select a Server Instance Configuration, make sure you choose "Standard Configuration". Then, you will set up a username and password. After that finish the rest of the installation. Open IIS as an admin. To do so, search IIS on windows search bar, then select "Run as administrator". Once the application is open look for "PHP Manager" and double click to open. Then click "Register a new PHP version". From here you will browse your file explorer(...) and look for a application file called "php-cgi". This file is located under the PHP folder you created earlier within your windows C drive(C:\PHP\php-cgi.exe). Return to IIS Manager home page 
+Install application file called "VC_redist.x86". Next install application file called "mysql-5.5.62-win32". During installation make sure to choose "Typical" for setup type. After that, launch the application. Once there, you are prompted to select a Server Instance Configuration, make sure you choose "Standard Configuration". Then, you will set up a username and password(do not forget). After that finish the rest of the installation. Open IIS as an admin from the start menu. Once entered look for "PHP Manager" and enter it. Then look for  "Register a new PHP version". From here you will browse your file explorer(...) and look for a application file called "php-cgi". This file is located under the PHP folder you created earlier within your windows C drive(C:\PHP\php-cgi.exe). Return to IIS Manager home page 
 and click "Restart" under the actions panel.
 </p>
 <br />
