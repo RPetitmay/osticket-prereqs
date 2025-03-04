@@ -59,11 +59,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
         </ol>
 </p>
 <br />
+
 <p>
 <img src="https://i.imgur.com/SQV1HJQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<p>
-            
+<p>         
 <ol>
             <h3>Enable CGI for IIS on a Virtual Machine</h3>
             <li>Open a web browser and enter <strong>127.0.0.1</strong> in the address bar.</li>
@@ -88,7 +88,6 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/W7cAAAH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-            
         <ol>
             <h3>Locate and Install Required Components</h3>
             <li>Navigate to the unzipped <strong>osTicket Installation File</strong> folder on your desktop.</li>
