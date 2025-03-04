@@ -88,22 +88,7 @@ From here go back to IIS Manager home, double-click osTicket on the left panel a
 <img src="https://i.imgur.com/53GE1kz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Go to osTicket Installer on your browser and click continue. Afterwards fill in the system settings for your online helpdesk. Before clicking Install Now, go back to the osTicket Installation Files folder and install HeidiSQL. AFter installation, HeidiSql should have launched, click New. Make sure to enter the same password used earlier, when setting up the Sql server. Continue and create a database called osTicket. Go back to the browswer and fill in the database settings anc click install now. 
+Go to osTicket Installer on your browser and click continue. Afterwards fill in the system settings for your online helpdesk. Before clicking Install Now, go back to the osTicket Installation Files folder and install HeidiSQL. AFter installation, HeidiSql should have launched, click New. Make sure to enter the same password used earlier, when setting up the Sql server. Continue and create a database called osTicket. Go back to the browswer and fill in the database settings anc click install now. Congratulations you have completed the setup of osTicket. 
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
