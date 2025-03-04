@@ -28,10 +28,18 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/jZQWfUC.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/jZQWfUC.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/JzPEKNQ.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Open Remote Desktop Connection if your using Windows or Windows App if your are using MacOS. Enter the IP address, username and password of your Virtual Machine. All the information needed can be found in your Azure protal virtual machine section. 
+<ol>
+            <li>If using <strong>Windows</strong>, open <strong>Remote Desktop Connection</strong>.</li>
+            <li>If using <strong>macOS</strong>, open the <strong>Windows Remote Desktop app</strong>.</li>
+            <li>Enter the <strong>IP address</strong> of your virtual machine.</li>
+            <li>Enter the <strong>username</strong> associated with the virtual machine.</li>
+            <li>Enter the <strong>password</strong> for the virtual machine.</li>
+            <li>If you need connection details, locate them in the <strong>Azure Portal</strong> under the <strong>Virtual Machine</strong> section.</li>
+        </ol>
 </p>
 <br />
 
@@ -39,15 +47,37 @@ Open Remote Desktop Connection if your using Windows or Windows App if your are 
 <img src="https://i.imgur.com/Cz95LZp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-After successfully logging in, copy and paste the link of the osTicket Installation Zip Folder onto your VM. Download(donot unzip) the folder. Locate the downloaded folder in file explorer, drag/move the folder onto your desktop from file explorer. Afterwards extract(unzip) all files from within the zipped folder. After extraction an extra folder within your desktop should. 
+<ol>
+            <li>Log in to your virtual machine (VM) successfully.</li>
+            <li>Copy and paste the link to the <strong>osTicket Installation Zip Folder</strong> onto your VM.</li>
+            <li>Download the folder but do not extract or unzip it.</li>
+            <li>Open <strong>File Explorer</strong> and locate the downloaded <strong>osTicket Installation Zip Folder</strong>.</li>
+            <li>Drag or move the downloaded folder from <strong>File Explorer</strong> to the <strong>desktop</strong> for easy access.</li>
+            <li>Right-click the zipped folder and select <strong>"Extract All"</strong> to unzip the files.</li>
+            <li>Once the extraction is complete, a new <strong>unzipped folder</strong> should appear on the desktop.</li>
+        </ol>
 </p>
 <br />
-F
 <p>
 <img src="https://i.imgur.com/SQV1HJQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-First on the internet and type  127.0.0.0, and an error page should appear with no CGI applied as expected. After successful extraction, go to the Control Panel of the VM  and look for "Programs" and within programs look for "Programs and Features" adn then within programs and features look for "Turn Windows features on and off". Once arrived a windows tab should opened contain many folders within folders and checkboxes. First, check/click the box next to Internet Information Services and expand the folder. Under this folder locate another folder named "World Wide Web Services" and expand the folder, then locate another folder named "Application Development Features" and expand it, lastly check the box next to "CGI" and click ok to apply changes to you VM's window features. To confirm that the changes have been applied, go on the web browser reload or a search again 127.0.0.1 on the search bar and this time it should display a CGI for the IIS(Internet Information Services) page.
+<ol>
+            <li>Open a web browser and enter <strong>127.0.0.1</strong> in the address bar.</li>
+            <li>Confirm that an error page appears, indicating that CGI is not yet enabled.</li>
+            <li>Open the <strong>Control Panel</strong> on the virtual machine.</li>
+            <li>Click on <strong>Programs</strong>, then select <strong>Programs and Features</strong>.</li>
+            <li>Within <strong>Programs and Features</strong>, click <strong>Turn Windows features on or off</strong>.</li>
+            <li>In the <strong>Windows Features</strong> window, locate <strong>Internet Information Services (IIS)</strong> and check the box to enable it.</li>
+            <li>Expand the <strong>Internet Information Services</strong> folder.</li>
+            <li>Expand the <strong>World Wide Web Services</strong> folder.</li>
+            <li>Expand the <strong>Application Development Features</strong> folder.</li>
+            <li>Check the box next to <strong>CGI</strong> to enable it.</li>
+            <li>Click <strong>OK</strong> to apply the changes.</li>
+            <li>Once the changes have been applied, reopen the web browser.</li>
+            <li>Enter <strong>127.0.0.1</strong> in the address bar again.</li>
+            <li>Confirm that the IIS (Internet Information Services) page now displays, indicating that CGI has been successfully enabled.</li>
+        </ol>
 </p>
 <br />
 
@@ -55,7 +85,20 @@ First on the internet and type  127.0.0.0, and an error page should appear with 
 <img src="https://i.imgur.com/W7cAAAH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Locate the unzipped osTicket Installation folder on your desktop, enter the folder, and look for a file application called "PHPManagerForIIS" and install it. On the same folder locate windows installer package called "rewrite_amd64" and install it. Open up a new file explorer window and go to your windows C drive, then add a new folder and name it "PHP". Within the osTicket Installation Folder locate another folder called "php-7.3.8-nts-Win32-VC15-x85" and extract the files from this folder onto another folder named PHP that you created earlier. To do so, right click on the folder, click extract all, then click browse and look for the PHP folder which is under the Windows C: drive and then click "Select folder" and then click extract.
+        <ol>
+            <li>Navigate to the unzipped <strong>osTicket Installation File</strong> folder on your desktop.</li>
+            <li>Open the folder and locate the executable file named <strong>"PHPManagerForIIS"</strong>.</li>
+            <li>Double-click the file and follow the installation instructions.</li>
+            <li>In the same folder, find the <strong>Windows Installer package</strong> named <strong>"rewrite_amd64"</strong>.</li>
+            <li>Install the package by double-clicking the file and following the installation steps.</li>
+            <li>Open <strong>File Explorer</strong> and navigate to the <strong>C:\ drive</strong>.</li>
+            <li>Create a new folder and name it <strong>"PHP"</strong>.</li>
+            <li>Within the <strong>osTicket Installation File</strong> folder, locate the directory named <strong>"php-7.3.8-nts-Win32-VC15-x86"</strong>.</li>
+            <li>Right-click the folder and select <strong>"Extract All"</strong>.</li>
+            <li>Click <strong>"Browse"</strong> and navigate to the <strong>C:\ drive</strong>.</li>
+            <li>Select the newly created <strong>PHP</strong> folder and click <strong>"Select Folder"</strong>.</li>
+            <li>Click <strong>"Extract"</strong> to complete the process.</li>
+        </ol>
 </p>
 <br />
 
@@ -63,8 +106,22 @@ Locate the unzipped osTicket Installation folder on your desktop, enter the fold
 <img src="https://i.imgur.com/Ys3z4vn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Install application file called "VC_redist.x86". Next install application file called "mysql-5.5.62-win32". During installation make sure to choose "Typical" for setup type. After that, launch the application. Once there, you are prompted to select a Server Instance Configuration, make sure you choose "Standard Configuration". Then, you will set up a username and password(do not forget). After that finish the rest of the installation. Open IIS as an admin from the start menu. Once entered look for "PHP Manager" and enter it. Then look for  "Register a new PHP version". From here you will browse your file explorer(...) and look for a application file called "php-cgi". This file is located under the PHP folder you created earlier within your windows C drive(C:\PHP\php-cgi.exe). Return to IIS Manager home page 
-and click "Restart" under the actions panel.
+<ol>
+            <li>Install the application file <strong>"VC_redist.x86"</strong>.</li>
+            <li>Install <strong>"mysql-5.5.62-win32"</strong>.</li>
+            <li>During installation, select <strong>"Typical"</strong> as the setup type.</li>
+            <li>After installation, launch the MySQL application.</li>
+            <li>When prompted, select <strong>"Server Instance Configuration"</strong>.</li>
+            <li>Choose <strong>"Standard Configuration"</strong>.</li>
+            <li>Set up a <strong>username and password</strong> (ensure you remember these credentials).</li>
+            <li>Complete the installation by following the remaining prompts.</li>
+            <li>Open <strong>Internet Information Services (IIS) Manager</strong> as an administrator from the Start menu.</li>
+            <li>Locate and open <strong>"PHP Manager"</strong>.</li>
+            <li>Click <strong>"Register a new PHP version"</strong>.</li>
+            <li>In the file explorer window, navigate to <strong>C:\PHP</strong> and select the application file <strong>"php-cgi.exe"</strong>.</li>
+            <li>Return to the <strong>IIS Manager</strong> home page.</li>
+            <li>Under the <strong>Actions</strong> panel, click <strong>"Restart"</strong> to apply the changes.</li>
+        </ol>
 </p>
 <br />
 
@@ -72,7 +129,22 @@ and click "Restart" under the actions panel.
 <img src="https://i.imgur.com/nqzMj67.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Under the osTicket-Installation-Files folder locate a Compressed(zipped folder named "osTicket-v1.15.8") and extract all files. Once extraction is complete, a folder(unzipped) named "osTicket-v1.15.8", should have appeared. Next, within this folder copy the "upload" folder onto "C:\inetpub\wwwroot" and rename the upload folder as "osTicket". Then reload/restart the IIS manager server. On the left hand side of IIS Manager home, under connections look for "Sites" then expand it and look for "Default Web Site" and expand it and click on "osTicket". Afterwards, on the right panel click "Browse *:80(http)". This should have opened osTicket installer page on the browser, with a message saying "thank you for choosing osTicket".
+<ol>
+            <li>Navigate to the <strong>osTicket-Installation-Files</strong> folder.</li>
+            <li>Locate the compressed (zipped) folder named <strong>"osTicket-v1.15.8"</strong>.</li>
+            <li>Extract all files from the zipped folder.</li>
+            <li>Once extraction is complete, an unzipped folder named <strong>"osTicket-v1.15.8"</strong> should appear.</li>
+            <li>Open the <strong>"osTicket-v1.15.8"</strong> folder and locate the <strong>"upload"</strong> folder.</li>
+            <li>Copy the <strong>"upload"</strong> folder to <strong>C:\inetpub\wwwroot</strong>.</li>
+            <li>Rename the copied <strong>"upload"</strong> folder to <strong>"osTicket"</strong>.</li>
+            <li>Restart the <strong>IIS Manager</strong> server.</li>
+            <li>In <strong>IIS Manager</strong>, locate the <strong>"Connections"</strong> panel on the left.</li>
+            <li>Expand <strong>"Sites"</strong>, then expand <strong>"Default Web Site"</strong>.</li>
+            <li>Select <strong>"osTicket"</strong>.</li>
+            <li>On the right panel, click <strong>"Browse *:80 (http)"</strong>.</li>
+            <li>The <strong>osTicket installer page</strong> should now open in a web browser.</li>
+            <li>The page should display the message: <em>"Thank you for choosing osTicket."</em></li>
+        </ol>
 </p>
 <br />
 
@@ -80,7 +152,25 @@ Under the osTicket-Installation-Files folder locate a Compressed(zipped folder n
 <img src="https://i.imgur.com/zaCGLkJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-From here go back to IIS Manager home, double-click osTicket on the left panel and look for PHP Manager. Under PHP Manager look for PHP Extensions, then look for "Enable and disable an extension" and open it. Now you will enable the following extensions, php_imap.dll, php_intl.dll, and php_opcache.dll. Refresh the osTicket installer page, to see the changes of the extensions added. From the following file path "C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php" rename the file ost-sampleconfig.php to ost-config.php. Go to the Properties of the file, then go to the Security tab, then go to Advanced and click "Disable Inheritance" and then click "Remove all inherited permissions from this object". Click add and on the top left hand corner click "Select a principal" and add a user/enter an object name by typing a name and then select Full Control, to give full permission to osTicket configuration. To finalize, click "Ok" and "Apply".
+<ol>
+            <li>Open <strong>IIS Manager</strong> and return to the <strong>Home</strong> screen.</li>
+            <li>In the left panel, double-click <strong>osTicket</strong> to open its settings.</li>
+            <li>Locate and open <strong>PHP Manager</strong>.</li>
+            <li>Under <strong>PHP Manager</strong>, find <strong>PHP Extensions</strong> and select <strong>"Enable and disable an extension"</strong>.</li>
+            <li>Enable the following PHP extensions:</li>
+            <li><strong>php_imap.dll</strong></li>
+            <li><strong>php_intl.dll</strong></li>
+            <li><strong>php_opcache.dll</strong></li>
+            <li>Refresh the <strong>osTicket installer page</strong> to apply the changes.</li>
+            <li>Navigate to the following file path: <strong>C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php</strong>.</li>
+            <li>Rename <strong>ost-sampleconfig.php</strong> to <strong>ost-config.php</strong>.</li>
+            <li>Right-click the <strong>ost-config.php</strong> file and select <strong>Properties</strong>.</li>
+            <li>Go to the <strong>Security</strong> tab and click <strong>Advanced</strong>.</li>
+            <li>Click <strong>Disable Inheritance</strong>, then select <strong>"Remove all inherited permissions from this object"</strong>.</li>
+            <li>Click <strong>Add</strong>, then select <strong>"Select a principal"</strong> in the top left corner.</li>
+            <li>Enter a user or object name and select <strong>Full Control</strong> to grant full permissions to the osTicket configuration file.</li>
+            <li>Click <strong>OK</strong>, then click <strong>Apply</strong> to finalize the changes.</li>
+        </ol>
 </p>
 <br />
 
@@ -88,7 +178,16 @@ From here go back to IIS Manager home, double-click osTicket on the left panel a
 <img src="https://i.imgur.com/53GE1kz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Go to osTicket Installer on your browser and click continue. Afterwards fill in the system settings for your online helpdesk. Before clicking Install Now, go back to the osTicket Installation Files folder and install HeidiSQL. AFter installation, HeidiSql should have launched, click New. Make sure to enter the same password used earlier, when setting up the Sql server. Continue and create a database called osTicket. Go back to the browswer and fill in the database settings anc click install now. Congratulations you have completed the setup of osTicket. 
+<ol>
+            <li>Open the osTicket Installer in your browser and click <strong>Continue</strong>.</li>
+            <li>Fill in the system settings for your online helpdesk.</li>
+            <li>Before clicking <strong>Install Now</strong>, return to the osTicket Installation Files folder and install <strong>HeidiSQL</strong>.</li>
+            <li>After installation, HeidiSQL will launch automatically; click <strong>New</strong>.</li>
+            <li>Enter the same password you used earlier when setting up the SQL server.</li>
+            <li>Create a new database named <strong>osTicket</strong>.</li>
+            <li>Return to the browser, complete the database settings, and click <strong>Install Now</strong>.</li>
+            <li>Congratulations! You have successfully completed the osTicket setup.</li>
+        </ol>
 </p>
 <br />
 
