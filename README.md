@@ -47,8 +47,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/Cz95LZp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+             <h3>osTicket Installation File Transfer and Extraction</h3>
 <ol>
-            <h3>osTicket Installation File Transfer and Extraction</h3>
             <li>Log in to your virtual machine (VM) successfully.</li>
             <li>Copy and paste the link to the <strong>osTicket Installation Zip Folder</strong> onto your VM.</li>
             <li>Download the folder but do not extract or unzip it.</li>
@@ -64,8 +64,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/SQV1HJQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>         
+             <h3>Enable CGI for IIS on a Virtual Machine</h3>
 <ol>
-            <h3>Enable CGI for IIS on a Virtual Machine</h3>
             <li>Open a web browser and enter <strong>127.0.0.1</strong> in the address bar.</li>
             <li>Confirm that an error page appears, indicating that CGI is not yet enabled.</li>
             <li>Open the <strong>Control Panel</strong> on the virtual machine.</li>
@@ -88,8 +88,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/W7cAAAH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-        <ol>
             <h3>Locate and Install Required Components</h3>
+        <ol>
             <li>Navigate to the unzipped <strong>osTicket Installation File</strong> folder on your desktop.</li>
             <li>Open the folder and locate the executable file named <strong>"PHPManagerForIIS"</strong>.</li>
             <li>Double-click the file and follow the installation instructions.</li>
@@ -110,9 +110,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/Ys3z4vn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-            
+             <h3>Installation and Configuration Guide</h3>
 <ol>
-            <h3>Installation and Configuration Guide</h3>
             <li>Install the application file <strong>"VC_redist.x86"</strong>.</li>
             <li>Install <strong>"mysql-5.5.62-win32"</strong>.</li>
             <li>During installation, select <strong>"Typical"</strong> as the setup type.</li>
@@ -135,9 +134,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/nqzMj67.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-            
-<ol>
             <h3>osTicket Installation Guide</h3>
+<ol>
             <li>Navigate to the <strong>osTicket-Installation-Files</strong> folder.</li>
             <li>Locate the compressed (zipped) folder named <strong>"osTicket-v1.15.8"</strong>.</li>
             <li>Extract all files from the zipped folder.</li>
@@ -160,9 +158,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/zaCGLkJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-            
+           <h3>osTicket Configuration Guide</h3> 
 <ol>
-            <h3>osTicket Configuration Guide</h3>
             <li>Open <strong>IIS Manager</strong> and return to the <strong>Home</strong> screen.</li>
             <li>In the left panel, double-click <strong>osTicket</strong> to open its settings.</li>
             <li>Locate and open <strong>PHP Manager</strong>.</li>
@@ -188,9 +185,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/53GE1kz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-            
+             <h3>osTicket Installation and Database Setup</h3>
 <ol>
-            <h3>osTicket Installation and Database Setup</h3>
             <li>Open the osTicket Installer in your browser and click <strong>Continue</strong>.</li>
             <li>Fill in the system settings for your online helpdesk.</li>
             <li>Before clicking <strong>Install Now</strong>, return to the osTicket Installation Files folder and install <strong>HeidiSQL</strong>.</li>
