@@ -176,7 +176,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
             <li>Go to the <strong>Security</strong> tab and click <strong>Advanced</strong>.</li>
             <li>Click <strong>Disable Inheritance</strong>, then select <strong>"Remove all inherited permissions from this object"</strong>.</li>
             <li>Click <strong>Add</strong>, then select <strong>"Select a principal"</strong> in the top left corner.</li>
-            <li>Enter a user or object name and select <strong>Full Control</strong> to grant full permissions to the osTicket configuration file.</li>
+            <li>Enter a user or object name and select <strong>Check Names</strong> to grant full permissions to the osTicket configuration file.</li>
+            <li>For this lab, the object name is <strong>Everyone</strong></li>
             <li>Click <strong>OK</strong>, then click <strong>Apply</strong> to finalize the changes.</li>
         </ol>
 </p>
