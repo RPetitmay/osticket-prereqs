@@ -72,11 +72,12 @@ This tutorial outlines the prerequisites and installation of the open-source hel
             <li>Open the <strong>Control Panel</strong> on the virtual machine.</li>
             <li>Click on <strong>Programs</strong>, then select <strong>Programs and Features</strong>.</li>
             <li>Within <strong>Programs and Features</strong>, click <strong>Turn Windows features on or off</strong>.</li>
-            <li>In the <strong>Windows Features</strong> window, locate <strong>Internet Information Services (IIS)</strong> and check the box to enable it.</li>
-            <li>Expand the <strong>Internet Information Services</strong> folder.</li>
-            <li>Expand the <strong>World Wide Web Services</strong> folder.</li>
-            <li>Expand the <strong>Application Development Features</strong> folder.</li>
-            <li>Check the box next to <strong>CGI</strong> to enable it.</li>
+            <li>In the <strong>Windows Features</strong> window, locate <strong>Internet Information Services folder</strong> and check the box to enable it.</li>
+            <li>Expand the <strong>Internet Information Services</strong> folder. </li>
+            <li>Check and expand the <strong>Web Management Tools</strong> folder. Ensure that the folders under this folder are all checked.</li>
+            <li>Check and expand the <strong>World Wide Web Services</strong> folder. Ensure that the folders under this folder are all checked</li>
+            <li>Check and expand the <strong>Application Development Features</strong> folder.</li>
+            <li>Only check the box next to <strong>CGI</strong> to enable it.</li>
             <li>Click <strong>OK</strong> to apply the changes.</li>
             <li>Once the changes have been applied, reopen the web browser.</li>
             <li>Enter <strong>127.0.0.1</strong> in the address bar again.</li>
