@@ -194,8 +194,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
             <li>Fill in the system settings for your online helpdesk.</li>
             <li>Before clicking <strong>Install Now</strong>, return to the osTicket Installation Files folder and install <strong>HeidiSQL</strong>.</li>
             <li>After installation, HeidiSQL will launch automatically; click <strong>New</strong>.</li>
-            <li>Enter the same password you used earlier when setting up the SQL server.</li>
-            <li>Create a new database named <strong>osTicket</strong>.</li>
+            <li>Under the <strong>Settings</strong> tab enter the same password you used earlier when setting up the SQL server. Click <strong>Open</strong>.</li>
+            <li>Right-click <strong>Unnamed</strong> on the left panel, click <strong>Create New</strong> and then click <strong>Database</strong>.</li>
+            <li>Name the database <strong>osticket</strong> and click <strong>OK</strong>.</li>
             <li>Return to the browser, complete the database settings, and click <strong>Install Now</strong>.</li>
             <li>Congratulations! You have successfully completed the osTicket setup.</li>
         </ol>
