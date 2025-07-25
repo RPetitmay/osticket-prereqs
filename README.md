@@ -117,8 +117,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
             <li>Install <strong>"mysql-5.5.62-win32"</strong>.</li>
             <li>During installation, select <strong>"Typical"</strong> as the setup type.</li>
             <li>After installation, launch the MySQL application.</li>
-            <li>When prompted, select <strong>"Server Instance Configuration"</strong>.</li>
-            <li>Choose <strong>"Standard Configuration"</strong>.</li>
+            <li>When prompted, select <strong>"Standard Configuration"</strong>.</li>
             <li>Set up a <strong>username and password</strong> (ensure you remember these credentials).</li>
             <li>Complete the installation by following the remaining prompts.</li>
             <li>Open <strong>Internet Information Services (IIS) Manager</strong> as an administrator from the Start menu.</li>
