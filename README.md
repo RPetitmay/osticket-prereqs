@@ -202,7 +202,3 @@ This tutorial outlines the prerequisites and installation of the open-source hel
         </ol>
 </p>
 <br />
-
-<h2>Conclusion</h2>
-
-In this lab, I demonstrated the installation and configuration of the ticketing system called osTicket. Through the labs I donwloaded and the various files needed to setup osTicket, such as 
